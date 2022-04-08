@@ -16,7 +16,6 @@ const Formulario = () => {
             return
         }
         busquedaLetra(busqueda)
-        setAlerta('')
     }
   return (
     <form
