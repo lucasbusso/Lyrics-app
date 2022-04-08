@@ -1,10 +1,13 @@
-import { useState } from 'react'
 import AppLetras from './components/AppLetras'
+import { LetrasProvider } from './context/Letras'
+
 
 function App() {
 
   return (
-   <AppLetras />
+    <LetrasProvider>
+        <AppLetras />
+    </LetrasProvider>
   )
 }
 
